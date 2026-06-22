@@ -225,6 +225,12 @@ st.title("4D Excel Plotter")
 st.write(
     "Upload an `.xlsx` file where row 1 contains the plot title, row 2 contains the "
     "axis/colorbar labels, and row 3 onward contains the numeric X, Y, Z, and color data."
+    "Example format in Excel:"
+    "  | A           | B           | C           | D           |"
+    "  |--------------------------------------------------------"
+    "1 | Title       |"
+    "2 | x-axis name | y-axis name | z-axis name | c-axis name |"
+    "3 | 1.7         | 0.9         | 1.53        | 2.6         |"
 )
 
 uploaded_file = st.file_uploader("Upload Excel file", type=["xlsx"])
