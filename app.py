@@ -230,8 +230,6 @@ st.write(
     
       | A           | B           | C           | D           |
       
-      |--------------------------------------------------------
-      
     1 | Title       |
     
     2 | x-axis name | y-axis name | z-axis name | c-axis name |
